@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.name {
+    color: aqua;
+}
+
+li em {
+    color: blue;
+}
+
+
+a:visited {
+    color: green;
+}
+a:hover {
+    color: chocolate;
+}
+
+body {
+   font: normal 18px 'Roboto', sans-serif;
+}
+.flag {
+    align-items: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 50px;
+    width: 600px;
+}
+
+.circle {
+    border-radius: 50%;
+    background: red;
+    height: 240px;
+    width: 240px;
+}        
+
+.list-group  {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    list-style: none;
+    margin-left: 100px;
+    max-width: 400px;
+    overflow: hidden;
+    padding-left: 0;
+}
+
+.list-group-item {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 10px 10px;
+}
+
+.list-group-item:nth-last-of-type(1) {
+    border-bottom: none;
+}
+
+.list-group a {
+    color: black;
+    text-decoration: none;
+} 
+
+.list-group-item:hover {
+    background-color: blue;
+}
+
+.list-group-item:hover a {
+    color: white;
+}
+
+.card {
+    border: 1px solid  rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin-left: 125px;
+    overflow: hidden;
+    width: 350px;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font: normal 22px 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.card-text {
+    font: normal 16px 'Roboto', sans-serif;
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+
+.btn {
+    background: #e45d80;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font: normal 12px 'Roboto', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    color: white;
+}
